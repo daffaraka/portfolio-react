@@ -1,3 +1,5 @@
+import { Laptop } from "lucide-react";
+
 export default function About() {
   return (
     <section id="about" className="py-24 px-4">
@@ -5,8 +7,8 @@ export default function About() {
         {/* Left — visual */}
         <div className="flex justify-center">
           <div className="relative">
-            <div className="w-60 h-60 rounded-2xl bg-gradient-to-br from-blue-600 to-blue-900 flex items-center justify-center text-7xl shadow-2xl shadow-blue-900/40 border border-blue-500/20">
-              👨‍💻
+            <div className="w-60 h-60 rounded-2xl bg-[#0A0A0F] flex items-center justify-center text-7xl shadow-2xl shadow-black/40 border border-white/5">
+              <Laptop size={80} className="text-gray-400" strokeWidth={1.5} />
             </div>
             <div className="absolute -bottom-4 -right-4 bg-[#111827] border border-white/10 rounded-xl px-4 py-2.5 text-sm shadow-lg">
               <span className="text-blue-400 font-bold">4+</span>
@@ -33,21 +35,7 @@ export default function About() {
             Keahlian utama saya meliputi pengembangan aplikasi web menggunakan <span className="text-white font-medium">Laravel, PHP, Bootstrap, jQuery, dan Figma</span>. Saya fokus pada pembuatan aplikasi berbasis transaksi seperti ERP, sistem gudang, ordering, kasir, HRIS, dan audit. Saat ini sedang aktif belajar di bidang <span className="text-blue-400 font-medium">AI Engineer & Machine Learning</span>.
           </p>
 
-          {/* Education */}
-          <div className="space-y-3 mb-6">
-            {[
-              { degree: "S1 Teknologi Informasi", school: "Universitas Brawijaya", year: "2024" },
-              { degree: "D3 Teknologi Informasi", school: "Universitas Brawijaya", year: "2021" },
-            ].map((e) => (
-              <div key={e.degree} className="flex items-start gap-3 bg-[#111827] border border-white/5 rounded-xl p-3">
-                <div className="w-8 h-8 bg-blue-600/20 rounded-lg flex items-center justify-center text-sm flex-shrink-0">🎓</div>
-                <div>
-                  <p className="text-white text-sm font-semibold">{e.degree}</p>
-                  <p className="text-gray-500 text-xs">{e.school} · {e.year}</p>
-                </div>
-              </div>
-            ))}
-          </div>
+
 
           <div className="grid grid-cols-3 gap-3">
             {[

@@ -1,3 +1,5 @@
+import { Monitor, ClipboardList, Rocket, Wrench, BarChart, Bot, Building2, GraduationCap } from "lucide-react";
+
 export const skills = [
   { name: "Laravel", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" },
   { name: "PHP", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" },
@@ -22,32 +24,32 @@ export const skills = [
 export const services = [
   {
     title: "Web Development",
-    icon: "💻",
+    icon: <Monitor className="text-blue-400" />,
     desc: "Membangun aplikasi web full-stack berbasis transaksi, ERP, HRIS, dan sistem bisnis menggunakan Laravel & PHP.",
   },
   {
     title: "App Planning",
-    icon: "📋",
+    icon: <ClipboardList className="text-blue-400" />,
     desc: "Perencanaan sistem, wireframing di Figma, arsitektur database, dan roadmap pengembangan aplikasi.",
   },
   {
     title: "Deployment & Hosting",
-    icon: "🚀",
+    icon: <Rocket className="text-blue-400" />,
     desc: "Deploy aplikasi ke VPS, shared hosting, atau cloud. Setup domain, SSL, dan konfigurasi server.",
   },
   {
     title: "Maintenance",
-    icon: "🔧",
+    icon: <Wrench className="text-blue-400" />,
     desc: "Pemeliharaan rutin, perbaikan bug, update fitur, dan optimasi performa aplikasi yang sudah berjalan.",
   },
   {
     title: "Data Analyst",
-    icon: "📊",
+    icon: <BarChart className="text-blue-400" />,
     desc: "Analisis data bisnis, pembuatan laporan, visualisasi data, dan insight untuk pengambilan keputusan.",
   },
   {
     title: "Machine Learning",
-    icon: "🤖",
+    icon: <Bot className="text-blue-400" />,
     desc: "Sedang aktif belajar dan mengembangkan kemampuan di bidang AI Engineer dan Machine Learning.",
   },
 ];
@@ -134,22 +136,26 @@ export const portfolios = [
 ];
 
 export const education = [
-  { title: "S1 — Teknologi Informasi", issuer: "Universitas Brawijaya", year: "2024", icon: "🏛️" },
-  { title: "D3 — Teknologi Informasi", issuer: "Universitas Brawijaya", year: "2021", icon: "🎓" },
+  { title: "S1 — Teknologi Informasi", issuer: "Universitas Brawijaya", year: "2024", icon: <Building2 className="text-blue-400" /> },
+  { title: "D3 — Teknologi Informasi", issuer: "Universitas Brawijaya", year: "2021", icon: <GraduationCap className="text-blue-400" /> },
 ];
 
 export const certificates = [
-  { title: "Belajar Dasar Cloud dan Gen AI di AWS", issuer: "Dicoding", year: "2025", desc: "Memahami konsep dasar cloud AWS, layanan, infrastruktur global, serta pengenalan Generative AI." },
-  { title: "Belajar Dasar Data Science", issuer: "Dicoding", year: "2025", desc: "Mempelajari dasar-dasar data science, termasuk analisis dan pemahaman data." },
-  { title: "Belajar Dasar Structured Query Language / SQL", issuer: "Dicoding", year: "2025", desc: "Menguasai query dasar SQL untuk pengelolaan dan analisis data." },
-  { title: "Belajar Dasar AI", issuer: "Dicoding", year: "2025", desc: "Memahami konsep dasar Artificial Intelligence dan penerapannya." },
-  { title: "Belajar Back-End Pemula dengan JavaScript", issuer: "Dicoding", year: "2025", desc: "Mempelajari dasar backend menggunakan Node.js dan pengembangan API." },
-  { title: "Belajar Dasar Pemrograman JavaScript", issuer: "Dicoding", year: "2025", desc: "Menguasai dasar JavaScript untuk pengembangan aplikasi dan RESTful API sederhana." },
-  { title: "Belajar Machine Learning untuk Pemula", issuer: "Dicoding", year: "2026", desc: "Mempelajari pembuatan model machine learning (klasifikasi, regresi, clustering)." },
-  { title: "Memulai Pemrograman dengan Python", issuer: "Dicoding", year: "2025", desc: "Menguasai dasar pemrograman Python dan penggunaan tools seperti Jupyter Notebook." },
-  { title: "Python Fundamental for Data Science", issuer: "DQLab", year: "2026", desc: "Memahami dasar Python untuk pengolahan dan analisis data." },
-  { title: "Machine Learning with Python for Beginner", issuer: "DQLab", year: "2026", desc: "Mempelajari dasar machine learning, data preprocessing, dan implementasi model dengan Scikit-Learn." },
-  { title: "Pengantar Machine Learning dengan Python", issuer: "DQLab", year: "2026", desc: "Memahami konsep, jenis, dan pemilihan algoritma machine learning serta implementasi sederhana." },
+  { title: "Belajar Dasar Cloud dan Gen AI di AWS.", issuer: "Dicoding", year: "2025", link: "https://www.dicoding.com/certificates/JMZVVDKYRZN9" },
+  { title: "Belajar Dasar Data Science", issuer: "Dicoding", year: "2025", link: "https://www.dicoding.com/certificates/1OP8JV4JVPQK" },
+  { title: "Belajar Dasar Structured Query Language (SQL)", issuer: "Dicoding", year: "2025", link: "https://www.dicoding.com/certificates/N9ZO2LR6RPG5" },
+  { title: "Belajar Dasar AI", issuer: "Dicoding", year: "2025" },
+  { title: "Belajar Back-End Pemula dengan JavaScript", issuer: "Dicoding", year: "2025", link: "https://www.dicoding.com/certificates/98XWO0KVLZM3" },
+  { title: "Belajar Dasar Pemrograman JavaScript", issuer: "Dicoding", year: "2025", link: "https://www.dicoding.com/certificates/2VX352KW3PYQ" },
+  { title: "Belajar Machine Learning untuk Pemula", issuer: "Dicoding", year: "2026", link: "https://www.dicoding.com/certificates/JLX15M1R5Z72" },
+  { title: "Memulai Pemrograman dengan Python", issuer: "Dicoding", year: "2025" },
+  { title: "Machine Learning With Python for Beginner", issuer: "DQLab", year: "2026", link: "https://academy.dqlab.id/Certificate_check/result/DQLABDVIZ2TARAJS" },
+  { title: "Python Fundamental for Data Science", issuer: "DQLab", year: "2026", link: "https://academy.dqlab.id//certificate/pdf/DQLABINTP1JPGNHI" },
+  { title: "Pengantar Machine Learning dengan Python", issuer: "DQLab", year: "2026", link: "https://academy.dqlab.id/Certificate_check/result/DQLABPMLP1WWVKLT" },
+  { title: "Belajar Membuat Aplikasi Web dengan React", issuer: "Dicoding / DQLab", year: "2026", link: "https://www.dicoding.com/certificates/EYX4Q03K6PDL" },
+  { title: "Belajar Fundamental Aplikasi Web dengan React", issuer: "Dicoding", year: "2026", link: "https://www.dicoding.com/certificates/53XE1D41VZRN" },
+  { title: "Belajar Dasar Google Cloud", issuer: "Dicoding", year: "2026", link: "https://www.dicoding.com/certificates/MRZMWNWVRPYQ" },
+  { title: "Menjadi Google Cloud Engineer", issuer: "Dicoding", year: "N/A", link: "https://www.dicoding.com/certificates/6RPN7JYO9X2M" },
 ];
 
 export const clients = [

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Mail, Phone, MapPin } from "lucide-react";
 
 export default function Contact() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
@@ -31,12 +32,12 @@ export default function Contact() {
 
             <div className="space-y-4 mb-8">
               {[
-                { icon: "📧", label: "Email", value: "daffarakals@email.com" },
-                { icon: "📱", label: "WhatsApp", value: "+62 898-9045-550" },
-                { icon: "📍", label: "Lokasi", value: "Depok, Jawa Barat" },
+                { icon: <Mail className="text-blue-400" />, label: "Email", value: "daffarakals@email.com" },
+                { icon: <Phone className="text-blue-400" />, label: "WhatsApp", value: "+62 898-9045-550" },
+                { icon: <MapPin className="text-blue-400" />, label: "Lokasi", value: "Depok, Jawa Barat" },
               ].map((i) => (
                 <div key={i.label} className="flex items-center gap-4">
-                  <div className="w-11 h-11 bg-blue-600/15 rounded-xl flex items-center justify-center text-lg flex-shrink-0">
+                  <div className="w-11 h-11 bg-[#0A0A0F] rounded-xl flex items-center justify-center text-lg flex-shrink-0 border border-white/5">
                     {i.icon}
                   </div>
                   <div>
@@ -83,7 +84,7 @@ export default function Contact() {
                   target="_blank"
                   rel="noreferrer"
                   title={s.label}
-                  className="w-10 h-10 bg-[#111827] border border-white/10 rounded-xl flex items-center justify-center text-gray-400 hover:text-blue-400 hover:border-blue-500/30 transition-all"
+                  className="w-10 h-10 bg-[#0A0A0F] border border-white/10 rounded-xl flex items-center justify-center text-gray-400 hover:text-blue-400 hover:border-blue-500/30 transition-all"
                 >
                   {s.icon}
                 </a>

@@ -18,7 +18,7 @@ export default function Services() {
               key={s.title}
               className="bg-[#111827] rounded-xl p-6 border border-white/5 hover:border-blue-500/30 hover:-translate-y-1 transition-all group cursor-default"
             >
-              <div className="w-12 h-12 bg-blue-600/15 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:bg-blue-600/25 transition-colors">
+              <div className="w-12 h-12 bg-[#0A0A0F] rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
                 {s.icon}
               </div>
               <h3 className="text-white font-semibold mb-2 group-hover:text-blue-400 transition-colors">{s.title}</h3>

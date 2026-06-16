@@ -48,7 +48,7 @@ export default function Hero() {
 
         {/* Tech stack pills */}
         <div className="flex flex-wrap justify-center gap-2 mt-10">
-          {["Laravel", "PHP", "Bootstrap", "jQuery", "MySQL", "Figma","Machine Learning","AI","Python","Java","Tailwind"].map((t) => (
+          {["Laravel", "PHP", "Bootstrap", "jQuery", "MySQL", "Figma", "Machine Learning", "AI", "Python", "Java", "Tailwind", "Node.js", "React.js", "Vue", "DevOps", "Django", "FastAPI"].map((t) => (
             <span key={t} className="px-3 py-1 bg-white/5 border border-white/10 text-gray-400 text-xs rounded-md">
               {t}
             </span>
