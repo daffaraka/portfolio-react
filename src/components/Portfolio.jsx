@@ -15,13 +15,13 @@ function Modal({ project, onClose }) {
       onClick={onClose}
     >
       <div
-        className="bg-[#111827] rounded-2xl max-w-2xl w-full overflow-hidden border border-white/10 shadow-2xl"
+        className="bg-[#111827] rounded-2xl max-w-4xl w-full overflow-hidden border border-white/10 shadow-2xl"
         onClick={(e) => e.stopPropagation()}
       >
         <Swiper modules={[Navigation, Pagination]} navigation pagination={{ clickable: true }}>
           {project.images.map((img, i) => (
             <SwiperSlide key={i}>
-              <img src={img} alt={`${project.title} ${i + 1}`} className="w-full h-60 object-cover" />
+              <img src={img} alt={`${project.title} ${i + 1}`} className="w-full h-80 md:h-96 object-cover" />
             </SwiperSlide>
           ))}
         </Swiper>
