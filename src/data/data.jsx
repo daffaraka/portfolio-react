@@ -261,6 +261,29 @@ export const portfolios = [
     ],
     link: "#",
   },
+  {
+    id: 12,
+    title: "AQR v2 (Sistem Ticketing)",
+    category: "Web",
+    desc: "Sistem Manajemen Tiket (AQR v2) untuk penanganan tiket secara terstruktur dari berbagai departemen, dilengkapi alur penyelesaian dan dashboard monitoring.",
+    tech: ["Laravel", "Tailwind CSS", "MySQL"],
+    images: [
+      "/portofolio/Portofolio Daffa Raka Mahendra/AQR v2/login/login.png",
+      "/portofolio/Portofolio Daffa Raka Mahendra/AQR v2/dashboard/dashboard gate 1.png",
+      "/portofolio/Portofolio Daffa Raka Mahendra/AQR v2/dashboard/dashboard pic.png",
+      "/portofolio/Portofolio Daffa Raka Mahendra/AQR v2/dashboard/5 tiket baru.png",
+      "/portofolio/Portofolio Daffa Raka Mahendra/AQR v2/dashboard/edit tiket 1.png",
+      "/portofolio/Portofolio Daffa Raka Mahendra/AQR v2/dashboard/edit tiket 2.png",
+      "/portofolio/Portofolio Daffa Raka Mahendra/AQR v2/dashboard/isi penanganan.png",
+      "/portofolio/Portofolio Daffa Raka Mahendra/AQR v2/dashboard/penanganan tiket.png",
+      "/portofolio/Portofolio Daffa Raka Mahendra/AQR v2/dashboard/pilih departemen.png",
+      "/portofolio/Portofolio Daffa Raka Mahendra/AQR v2/dashboard/rekap tiket.png",
+      "/portofolio/Portofolio Daffa Raka Mahendra/AQR v2/dashboard/respon penanganan oleh pic.png",
+      "/portofolio/Portofolio Daffa Raka Mahendra/AQR v2/dashboard/riwayat penanganan.png",
+      "/portofolio/Portofolio Daffa Raka Mahendra/AQR v2/dashboard/update tiket.png"
+    ],
+    link: "#",
+  },
 ];
 
 export const education = [
