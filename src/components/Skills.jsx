@@ -2,7 +2,7 @@ import { skills } from "../data/data";
 
 export default function Skills() {
   return (
-    <section id="skills" className="py-24 px-4 bg-[#111827]/60">
+    <section id="skills" className="py-24 px-4">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-14">
           <p className="text-blue-400 text-sm font-semibold uppercase tracking-widest mb-2">Kemampuan</p>

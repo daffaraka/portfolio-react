@@ -2,7 +2,7 @@ import { Laptop } from "lucide-react";
 
 export default function About() {
   return (
-    <section id="about" className="py-24 px-4">
+    <section id="about" className="py-24 px-4 bg-[#111827]">
       <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-14 items-center">
         {/* Left — visual */}
         <div className="flex justify-center">

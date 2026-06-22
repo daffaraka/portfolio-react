@@ -12,7 +12,7 @@ export default function Portfolio() {
   const filtered = filter === "All" ? portfolios : portfolios.filter((p) => p.category === filter);
 
   return (
-    <section id="portfolio" className="py-24 px-4 bg-[#111827]/60">
+    <section id="portfolio" className="py-24 px-4 bg-[#0a192f]">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-14">
           <p className="text-blue-400 text-sm font-semibold uppercase tracking-widest mb-2">Hasil Kerja</p>

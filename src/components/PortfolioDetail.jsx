@@ -30,7 +30,7 @@ export default function PortfolioDetail() {
     <div className="bg-[#0A0A0F] min-h-screen font-sans text-white py-12 px-4 md:py-20">
       <div className="max-w-4xl mx-auto">
         {/* Menggunakan Hash Link atau sekadar "/" tergantung pada behavior router */}
-        <Link to="/" onClick={() => setTimeout(() => { const el = document.getElementById("portfolio"); if (el) el.scrollIntoView({ behavior: "smooth" }); }, 100)} className="inline-flex items-center gap-2 text-gray-400 hover:text-white transition-colors mb-8">
+        <Link to="/" onClick={() => setTimeout(() => { const el = document.getElementById("portfolio"); if (el) el.scrollIntoView({ behavior: "smooth" }); }, 100)} className="inline-flex items-center gap-2 px-4 py-2 bg-white/5 hover:bg-white/10 border border-white/10 rounded-lg text-gray-300 hover:text-white transition-all mb-8 font-medium shadow-sm hover:shadow-md">
           <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
           </svg>
@@ -81,6 +81,38 @@ export default function PortfolioDetail() {
             </a>
           )}
         </div>
+
+        {/* PROYEK LAINNYA */}
+        <div className="mt-20 pt-10 border-t border-white/10">
+          <h3 className="text-2xl font-bold text-white mb-8">Proyek Lainnya</h3>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {portfolios.filter(p => createSlug(p.title) !== slug).slice(0, 3).map((p) => (
+              <Link
+                to={`/portfolio/${createSlug(p.title)}`}
+                key={p.id}
+                className="bg-[#111827] rounded-xl overflow-hidden border border-white/5 hover:border-blue-500/30 hover:-translate-y-1 transition-all cursor-pointer group block"
+              >
+                <div className="relative overflow-hidden">
+                  <img
+                    src={p.images[0]}
+                    alt={p.title}
+                    className="w-full h-44 object-cover group-hover:scale-105 transition-all duration-500"
+                  />
+                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-all duration-300 flex items-center justify-center">
+                    <span className="opacity-0 group-hover:opacity-100 bg-white text-gray-900 text-xs font-semibold px-4 py-2 rounded-lg transition-all duration-300 shadow-lg">
+                      Lihat Detail
+                    </span>
+                  </div>
+                </div>
+                <div className="p-4">
+                  <span className="text-xs text-blue-400 font-medium uppercase tracking-wider">{p.category}</span>
+                  <h4 className="text-white font-semibold mt-1 mb-1 text-sm truncate">{p.title}</h4>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+
       </div>
     </div>
   );
