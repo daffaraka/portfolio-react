@@ -135,11 +135,11 @@ export default function Contact() {
       </div>
 
       {/* Footer */}
-      <div className="text-center mt-20 pt-8 border-t border-white/5">
+      <footer className="text-center mt-20 pt-8 border-t border-white/5">
         <p className="text-gray-600 text-xs">
           © {new Date().getFullYear()} Daffa Raka Mahendra — Fullstack Developer. Dibuat dengan React & Tailwind CSS.
         </p>
-      </div>
+      </footer>
     </section>
   );
 }
