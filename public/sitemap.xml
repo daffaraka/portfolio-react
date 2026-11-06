@@ -5,43 +5,43 @@
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <!-- Halaman Utama & Section -->
   <url>
-    <loc>https://daffaraka.dev/</loc>
+    <loc>https://portfolio-react-smoky-seven.vercel.app/</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://daffaraka.dev/#portfolio</loc>
+    <loc>https://portfolio-react-smoky-seven.vercel.app/#portfolio</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://daffaraka.dev/#about</loc>
+    <loc>https://portfolio-react-smoky-seven.vercel.app/#about</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daffaraka.dev/#skills</loc>
+    <loc>https://portfolio-react-smoky-seven.vercel.app/#skills</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daffaraka.dev/#services</loc>
+    <loc>https://portfolio-react-smoky-seven.vercel.app/#services</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daffaraka.dev/#certificates</loc>
+    <loc>https://portfolio-react-smoky-seven.vercel.app/#certificates</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://daffaraka.dev/#contact</loc>
+    <loc>https://portfolio-react-smoky-seven.vercel.app/#contact</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -49,73 +49,73 @@
 
   <!-- Detail Halaman Portofolio -->
   <url>
-    <loc>https://daffaraka.dev/portfolio/amazing-ebook</loc>
+    <loc>https://portfolio-react-smoky-seven.vercel.app/portfolio/amazing-ebook</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daffaraka.dev/portfolio/pembiayaan-murabhahah</loc>
+    <loc>https://portfolio-react-smoky-seven.vercel.app/portfolio/pembiayaan-murabhahah</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daffaraka.dev/portfolio/family-bakery-erp</loc>
+    <loc>https://portfolio-react-smoky-seven.vercel.app/portfolio/family-bakery-erp</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daffaraka.dev/portfolio/hewan-siapa-adopsi</loc>
+    <loc>https://portfolio-react-smoky-seven.vercel.app/portfolio/hewan-siapa-adopsi</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daffaraka.dev/portfolio/keypedia-e-commerce</loc>
+    <loc>https://portfolio-react-smoky-seven.vercel.app/portfolio/keypedia-e-commerce</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daffaraka.dev/portfolio/sistem-manajemen-even</loc>
+    <loc>https://portfolio-react-smoky-seven.vercel.app/portfolio/sistem-manajemen-even</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daffaraka.dev/portfolio/martaloka-konveksi</loc>
+    <loc>https://portfolio-react-smoky-seven.vercel.app/portfolio/martaloka-konveksi</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daffaraka.dev/portfolio/menak-furniture</loc>
+    <loc>https://portfolio-react-smoky-seven.vercel.app/portfolio/menak-furniture</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daffaraka.dev/portfolio/sistem-puskesmas</loc>
+    <loc>https://portfolio-react-smoky-seven.vercel.app/portfolio/sistem-puskesmas</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daffaraka.dev/portfolio/simple-ticketing-system</loc>
+    <loc>https://portfolio-react-smoky-seven.vercel.app/portfolio/simple-ticketing-system</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daffaraka.dev/portfolio/uas-portofolio-katalog</loc>
+    <loc>https://portfolio-react-smoky-seven.vercel.app/portfolio/uas-portofolio-katalog</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daffaraka.dev/portfolio/aqr-v2-sistem-ticketing</loc>
+    <loc>https://portfolio-react-smoky-seven.vercel.app/portfolio/aqr-v2-sistem-ticketing</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
