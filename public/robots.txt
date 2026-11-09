@@ -7,4 +7,4 @@ Disallow: /build/
 Disallow: /dist/
 
 # Host & Sitemap
-Sitemap: https://portfolio-react-smoky-seven.vercel.app/sitemap.xml
+Sitemap: https://daffa-raka.vercel.app/sitemap.xml
