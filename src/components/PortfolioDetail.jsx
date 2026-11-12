@@ -15,7 +15,15 @@ const createSlug = (title) =>
 
 export default function PortfolioDetail() {
   const { slug } = useParams();
-  const project = portfolios.find((p) => createSlug(p.title) === slug);
+  const project = portfolios.find((p) => {
+    const s = createSlug(p.title);
+    return (
+      s === slug ||
+      (slug === "ppdb" && s.startsWith("ppdb")) ||
+      (slug === "iav" && s.startsWith("iav")) ||
+      (slug === "aqr-v2-sistem-ticketing" && s.startsWith("iav"))
+    );
+  });
 
   useEffect(() => {
     window.scrollTo(0, 0);

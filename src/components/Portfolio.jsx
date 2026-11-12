@@ -17,7 +17,7 @@ export default function Portfolio() {
         <div className="text-center mb-14">
           <p className="text-blue-400 text-sm font-semibold uppercase tracking-widest mb-2">Hasil Kerja</p>
           <h2 className="text-3xl md:text-4xl font-bold text-white">Portfolio</h2>
-          <p className="text-gray-500 text-sm mt-3 max-w-md mx-auto">
+          <p className="text-gray-400 text-sm mt-3 max-w-md mx-auto">
             Beberapa proyek yang telah saya kerjakan untuk klien dari berbagai industri.
           </p>
         </div>

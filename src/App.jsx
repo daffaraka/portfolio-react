@@ -24,11 +24,11 @@ function Home() {
       <Navbar />
       <main id="main-content">
         <Hero />
+        <Portfolio />
         <About />
         <Certificates />
         <Skills />
         <Services />
-        <Portfolio />
         {/* <Clients /> */}
         <Contact />
       </main>

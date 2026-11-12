@@ -2,7 +2,7 @@ import { education, certificates } from "../data/data";
 
 export default function Certificates() {
   return (
-    <section id="certificates" className="py-24 px-4 bg-[#0a192f]">
+    <section id="certificates" className="py-24 px-4 bg-[#0A0A0F]">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-14">
           <p className="text-blue-400 text-sm font-semibold uppercase tracking-widest mb-2">Kredensial</p>
@@ -19,7 +19,7 @@ export default function Certificates() {
             {education.map((e) => (
               <div
                 key={e.title}
-                className="bg-[#0A0A0F] rounded-xl p-5 border border-white/5 hover:border-blue-500/30 transition-all flex items-start gap-4"
+                className="bg-[#111827] rounded-xl p-5 border border-white/10 hover:border-blue-500/30 transition-all flex items-start gap-4"
               >
                 <div className="w-12 h-12 bg-[#0A0A0F] rounded-xl flex items-center justify-center text-2xl flex-shrink-0">
                   {e.icon}
@@ -27,7 +27,7 @@ export default function Certificates() {
                 <div>
                   <h4 className="text-white font-semibold text-sm">{e.title}</h4>
                   <p className="text-blue-400 text-xs font-medium mt-0.5">{e.issuer}</p>
-                  <p className="text-gray-600 text-xs mt-1">{e.year}</p>
+                  <p className="text-gray-400 text-xs mt-1">{e.year}</p>
                 </div>
               </div>
             ))}
@@ -44,16 +44,16 @@ export default function Certificates() {
             {certificates.map((c) => (
               <div
                 key={c.title}
-                className="bg-[#0A0A0F] rounded-xl p-5 border border-white/5 hover:border-blue-500/30 hover:-translate-y-1 transition-all group"
+                className="bg-[#111827] rounded-xl p-5 border border-white/10 hover:border-blue-500/30 hover:-translate-y-1 transition-all group"
               >
                 <div className="flex items-center justify-between mb-3">
                   <span className="text-xs font-semibold text-blue-400 bg-blue-500/10 px-2.5 py-1 rounded-md">
                     {c.issuer}
                   </span>
-                  <span className="text-gray-600 text-xs">{c.year}</span>
+                  <span className="text-gray-400 text-xs">{c.year}</span>
                 </div>
                 <h4 className="text-white font-semibold text-sm leading-snug mb-2">{c.title}</h4>
-                {c.desc && <p className="text-gray-500 text-xs leading-relaxed">{c.desc}</p>}
+                {c.desc && <p className="text-gray-400 text-xs leading-relaxed">{c.desc}</p>}
                 {c.link && (
                   <a href={c.link} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 text-blue-400 hover:text-blue-300 text-xs mt-3 font-medium transition-colors">
                     Lihat Sertifikat
