@@ -5,7 +5,7 @@
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <!-- Halaman Utama -->
   <url>
-    <loc>https://daffa-raka.vercel.app/</loc>
+    <loc>https://daffaraka-dev.com/</loc>
     <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -13,79 +13,79 @@
 
   <!-- Detail Halaman Portofolio -->
   <url>
-    <loc>https://daffa-raka.vercel.app/portfolio/ppdb-penerimaan-peserta-didik-baru</loc>
+    <loc>https://daffaraka-dev.com/portfolio/ppdb-penerimaan-peserta-didik-baru</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daffa-raka.vercel.app/portfolio/iav-internal-avicenna-school-system</loc>
+    <loc>https://daffaraka-dev.com/portfolio/iav-internal-avicenna-school-system</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daffa-raka.vercel.app/portfolio/menak-furniture</loc>
+    <loc>https://daffaraka-dev.com/portfolio/menak-furniture</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daffa-raka.vercel.app/portfolio/martaloka-konveksi</loc>
+    <loc>https://daffaraka-dev.com/portfolio/martaloka-konveksi</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daffa-raka.vercel.app/portfolio/family-bakery-erp</loc>
+    <loc>https://daffaraka-dev.com/portfolio/family-bakery-erp</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daffa-raka.vercel.app/portfolio/amazing-ebook</loc>
+    <loc>https://daffaraka-dev.com/portfolio/amazing-ebook</loc>
     <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daffa-raka.vercel.app/portfolio/pembiayaan-murabhahah</loc>
+    <loc>https://daffaraka-dev.com/portfolio/pembiayaan-murabhahah</loc>
     <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daffa-raka.vercel.app/portfolio/hewan-siapa-adopsi</loc>
+    <loc>https://daffaraka-dev.com/portfolio/hewan-siapa-adopsi</loc>
     <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daffa-raka.vercel.app/portfolio/keypedia-e-commerce</loc>
+    <loc>https://daffaraka-dev.com/portfolio/keypedia-e-commerce</loc>
     <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daffa-raka.vercel.app/portfolio/sistem-manajemen-even</loc>
+    <loc>https://daffaraka-dev.com/portfolio/sistem-manajemen-even</loc>
     <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daffa-raka.vercel.app/portfolio/sistem-puskesmas</loc>
+    <loc>https://daffaraka-dev.com/portfolio/sistem-puskesmas</loc>
     <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daffa-raka.vercel.app/portfolio/simple-ticketing-system</loc>
+    <loc>https://daffaraka-dev.com/portfolio/simple-ticketing-system</loc>
     <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daffa-raka.vercel.app/portfolio/uas-portofolio-katalog</loc>
+    <loc>https://daffaraka-dev.com/portfolio/uas-portofolio-katalog</loc>
     <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

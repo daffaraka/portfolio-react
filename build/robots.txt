@@ -1,0 +1,10 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Prevent indexing build / internal paths
+Disallow: /build/
+Disallow: /dist/
+
+# Host & Sitemap
+Sitemap: https://daffaraka-dev.com/sitemap.xml

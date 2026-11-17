@@ -44,10 +44,10 @@ async function prerender() {
     const title = `${project.title} — Portfolio Daffa Raka Mahendra`;
     const rawDesc = `${project.title} — ${project.desc} Dibangun dengan ${project.tech.join(', ')} oleh Daffa Raka Mahendra.`;
     const desc = rawDesc.length > 155 ? `${rawDesc.slice(0, 152)}...` : rawDesc;
-    const canonical = `https://daffa-raka.vercel.app/portfolio/${slug}`;
+    const canonical = `https://daffaraka-dev.com/portfolio/${slug}`;
     const ogImage = project.images && project.images[0]
-      ? `https://daffa-raka.vercel.app${encodeURI(project.images[0])}`
-      : 'https://daffa-raka.vercel.app/og-image.png';
+      ? `https://daffaraka-dev.com${encodeURI(project.images[0])}`
+      : 'https://daffaraka-dev.com/og-image.png';
 
     let pageHtml = baseTemplate
       // Title
