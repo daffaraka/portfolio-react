@@ -38,7 +38,7 @@ export default function PortfolioDetail() {
       }
     }
     return () => {
-      document.title = "Daffa Raka Mahendra — Fullstack Web Developer | Laravel & React Specialist";
+      document.title = "Daffa Raka Mahendra — Fullstack Web Developer | Forward Deployed Engineer";
     };
   }, [project, slug]);
 
